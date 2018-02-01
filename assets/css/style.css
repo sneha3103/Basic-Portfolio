@@ -1,0 +1,141 @@
+body{
+	/**background-color: #d4cfcac9
+	margin: 0;
+	padding: 0;**/ 
+	background-image: url("../images/regal.png");
+	width: 100%;
+	margin: auto;
+	
+}
+
+.container {
+	width: 960px;
+}
+
+.header {
+	background-color: #7f9bb6
+	color: white;
+	width: 15%;
+	margin: 20px;
+	text-align: center;
+	position: static;
+	top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	right: 20px;
+	bottom: 150px;
+	
+}
+
+.nav {
+	float: right;
+	margin: 90px;
+}
+
+.nav a:hover {
+	background-color: #7f9bb6;
+	color: white;
+}
+.connect {
+	float: left;
+	text-align: center;
+	position: fixed;
+	top: 150px;
+	right: 5px;
+	background-color: rgb(211, 211, 211);
+    width: 300px;
+    border: 15px solid #7f9bb6;
+    padding: 15px;
+	margin: 15px;
+	margin-right: 10px;
+	color: rgb(70, 130, 199);
+}
+
+
+.footer {
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #7f9bb6;
+	color: white;
+	padding: 15px;
+}
+
+.placeholderone {
+	margin-right: 10px;
+	position: relative;
+	top: 15px;
+}
+
+.placeholdertwo {
+	position: relative;
+	top: 15px;
+}
+
+.placeholderthree {
+	position: absolute;
+	left: 1px;
+	float: left;
+	bottom: 30px;
+}
+
+.placeholderfour {
+	position: relative;
+	top: 300px;
+	right: 290px;
+}
+
+.placeholderfive {
+	position: relative;
+	top: 375px;
+	right: 870px;
+	
+}
+
+.inputform {
+	position: relative;
+	margin: 20px;
+	top: 80px;
+}
+
+input {
+	width: 50%;
+	padding: 12px;
+}
+
+h1 {
+	color:white;
+	background-color: #7f9bb6;
+	margin: 25px;
+	padding: 35px;
+	position: relative;
+	top: 45px;
+	left: 80px;
+	padding: 10px;
+}
+
+p, h1, {
+	font-family: 'Roboto Slab', serif;
+}
+
+
+img{
+	float: left;
+	width: 10%
+	padding: 15px;
+	margin: 20px;
+}
+
+
+

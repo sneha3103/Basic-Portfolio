@@ -13,13 +13,11 @@ body{
 }
 
 .header {
-	background-color: #7f9bb6
-	color: white;
-	width: 15%;
-	margin: 20px;
-	text-align: center;
-	position: static;
-	top: 0;
+	width: 22%;
+    margin: 20px;
+    text-align: center;
+    position: static;
+    top: 0;
 }
 
 a {
@@ -47,17 +45,17 @@ li{
 }
 .connect {
 	float: left;
-	text-align: center;
-	position: fixed;
-	top: 150px;
-	right: 5px;
-	background-color: rgb(211, 211, 211);
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    right: 5px;
+    background-color: rgb(211, 211, 211);
     width: 300px;
     border: 15px solid #7f9bb6;
     padding: 15px;
-	margin: 15px;
-	margin-right: 10px;
-	color: rgb(70, 130, 199);
+    margin: 15px;
+    margin-right: 17px;
+    color: rgb(70, 130, 199);
 }
 
 
@@ -104,49 +102,47 @@ li{
 }
 
 .inputform {
-	position: relative;
+	position: absolute;
 	margin: 20px;
-	top: 80px;
+	top: 137px;
 	padding: 12px;
 	padding-bottom: 20px;
 }
 
 input[type=text] {
 	padding: 12px;
-	height: 12px;
-	width: 50%;
+    height: 12px;
+    width: 224%;
 }
 
 input[type=message] {
 	padding: 12px;
-	height: 180px;
-	width: 50%;
-	margin-right: 20px;
+    height: 195px;
+    width: 450px;
+    margin-left: -5px;
 }
 
-.message {
-	position: relative;
-    margin-left: 33px;
-	padding-top: 60px;
-	
+
+textarea {
+	position: absolute;
+    top: 155px;
+    left: 12px;
 }
 
-.submit {
-	position: relative;
-    padding-top: 20px;
-    margin-left: 30px;
-    margin-right: 1300px;
+#submit {
+	position: absolute;
+    top: 325px;
 }
 
 h1 {
-	color:white;
-	background-color: #7f9bb6;
-	margin: 25px;
-	padding: 35px;
-	position: relative;
-	top: 45px;
-	left: 80px;
-	padding: 10px;
+	color: white;
+    background-color: #7f9bb6;
+    margin: 25px;
+    padding: 35px;
+    position: relative;
+    top: 45px;
+    left: 80px;
+    padding: 10px;
 }
 
 p, h1, {
